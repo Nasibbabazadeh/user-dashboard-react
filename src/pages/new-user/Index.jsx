@@ -20,7 +20,6 @@ const NewUser = () => {
         phone: '',
         email: '',
     })
-    console.log(formData)
 
     const handleInputChange = (e) => {
         const { name, value } = e.target
